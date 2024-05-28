@@ -51,7 +51,27 @@ In this project, we'll build virtual museum using AI agents.  Get ready for an e
      ```
 
 5. **Start Building!** (Not included in this snippet)
-   - Now you're ready to use your AI agents. The rest of the tutorial would involve code and instructions on how to interact with the models, design your museum layout, and create exhibits. 
+   - Now you're ready to use your AI agents. The rest of the tutorial would involve code and instructions on how to interact with the models, design your museum layout, and create exhibits.
+   
+6. **Install https://mpv.io/ for your resp. OS**
+    ```bash
+    Open Powershell terminal and run below command 
+    choco install mpv
+    ```
+   
+7. Run 
+```python
+(museum_with_ai_agents) ~\PycharmProjects\Lets_Build_Museum_Using_AI_Agents>python main.py
+```
+8. test
+```commandline
+(museum_with_ai_agents) ~\PycharmProjects\Lets_Build_Museum_Using_AI_Agents>curl -X POST -H "Content-Type: application/json" -d "{\"query\": \"What day comes after Tuesday?\"}" http://127.0.0.1:8080/llm
+```
+
+9. run mesuem
+```python
+streamlit run museum_board.py
+```
 
 ---
 
